@@ -11,8 +11,8 @@ public class LoginTest extends BaseTest {
     @Test
     public void login() {
         open("/login");
-        $("#inputEmail").sendKeys("radzivon.kanash@gmail.com");
-        $(By.xpath("//*[@id='inputPassword']")).setValue("GranadaGranada1!");
+        $("#inputEmail").sendKeys(email);
+        $(By.xpath("//*[@id='inputPassword']")).setValue(password);
         $("#btnLogin").click();
         $(By.id("createButton")).shouldBe(visible);
     }
