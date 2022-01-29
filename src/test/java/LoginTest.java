@@ -17,12 +17,12 @@ public class LoginTest extends BaseTest {
         $(By.id("createButton")).shouldBe(visible);
     }
 
-    @Test
-    public void login2() {
-        open("login ");
-        $("#inputEmail").sendKeys("radzivon.kanash@gmail.com");
-        $(By.xpath("//*[@id='inputPassword']")).setValue("GranadaGranada1!");
-        $("#btnLogin").click();
-        $(By.id("createButton")).shouldBe(visible);
-    }
+//    @Test
+//    public void login2() {
+//        open("login ");
+//        $("#inputEmail").sendKeys(email);
+//        $(By.xpath("//*[@id='inputPassword']")).setValue(password);
+//        $("#btnLogin").click();
+//        $(By.id("createButton")).shouldBe(visible);
+//    }
 }
