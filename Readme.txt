@@ -7,4 +7,4 @@ Add incorrect data in 'Login' field.
 Add incorrect data in 'Password' field.
 Register with empty 'Login' field.
 Register with empty 'Password' field.
-
+/
