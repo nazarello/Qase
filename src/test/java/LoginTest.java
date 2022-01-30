@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class LoginTest extends BaseTest {
 
-    @Test
+    @Test (description = "User add login and password for an authorisation")
     public void login() {
         open("/login");
         $("#inputEmail").sendKeys(email);
